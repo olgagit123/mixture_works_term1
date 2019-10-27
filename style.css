@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one {
+    background-color: mediumvioletred;
+    border: 0 solid navy;
+}
+
+.box-two {
+    background-color: olive;
+    border: 0 solid orange;
+}
