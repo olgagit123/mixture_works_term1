@@ -3,24 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Page</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster&display=swap" rel="stylesheet">
 </head>
+<style>
+    div {
+        background-color: rgb(20, 4, 238);
+        width: 100%;
+        height: 50px;
+        color: rgb(140, 143, 140);
+        font-family: 'Alfa Slab One', cursive;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .leftColumn {
+        background-color: blueviolet;
+        width: 50%;
+        height: 400px;
+        color: cyan;
+        float: left;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+    
+    .rightColumn {
+        background-color: crimson;
+        width: 50%;
+        height: 500px;
+        color: chartreuse;
+        float: right;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        background-color: darkmagenta;
+        color: white;
+        width: 99%;
+        height: 100px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+</style>
 
-<div class="box">
-    top of my box model:
+<div>
+    <header class="top-header">
+        <h3>Winter</h3>
+    </header>
 </div>
-<div class="leftColumn">
-    left column
-</div>
-<div class="rightColumn">
-    right column
-</div>
-<div class="footer">
-    footer
-</div>
+<article class="leftColumn">
+    <h3>Summer</h3>
+</article>
+<article class="rightColumn">
+    <h3>Spring</h3>
+</article>
+<footer class="footer">
+    <h3>Autumn</h3>
+</footer>
 </body>
 
 </html>

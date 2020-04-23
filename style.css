@@ -1,15 +1,42 @@
 * {
-    padding: 0;
     margin: 0;
-    font-size: 40px;
+    padding: 0;
 }
 
-.box-one {
-    background-color: mediumvioletred;
-    border: 0 solid navy;
+nav {
+    margin: 25px;
 }
 
-.box-two {
-    background-color: olive;
-    border: 0 solid orange;
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 2px solid #aaa;
+    padding: 0 20px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: blueviolet;
+    font: 25px/1 Helvetica, Verdana, sans;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li.active a {
+    font-weight: bold;
+    color: blue;
 }
